@@ -18,8 +18,11 @@ go get github.com/ramdeoangh/dictctl
 
 Usage
 bash
+windows
+./dictctl.exe wordfinder [word]
 
-wordfinder [word]
+ubuntu/mac
+dictctl wordfinder test
 
 [word]: The word you want to look up.
 
