@@ -1,5 +1,4 @@
-The MIT License (MIT)
-
+/*
 Copyright © 2023 Ramdeo Angh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,3 +18,39 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+*/
+package cmd
+
+import (
+	"log"
+	"os"
+
+	"github.com/spf13/cobra"
+)
+
+var (
+	WarningLogger *log.Logger
+	InfoLogger    *log.Logger
+	ErrorLogger   *log.Logger
+	version       = "1.0.0"
+)
+
+// rootCmd represents the base command when called without any subcommands
+var rootCmd = &cobra.Command{Use: "wordfinder", Version: version}
+
+func Execute() {
+	err := rootCmd.Execute()
+	if err != nil {
+		ErrorLogger.Fatalf("Whoops. There was an error while executing your CLI '%s'", err)
+		os.Exit(1)
+	}
+}
+
+func init() {
+	file, err := os.OpenFile("dicctl.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	if err != nil {
+		log.Fatal(err)
+	}
+	InfoLogger = log.New(file, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
+	ErrorLogger = log.New(file, "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
+}

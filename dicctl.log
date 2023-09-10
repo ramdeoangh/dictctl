@@ -1,0 +1,24 @@
+INFO: 2023/09/10 10:01:20 wordFinder.go:24: arguments [ability]
+INFO: 2023/09/10 10:01:20 dictionary.go:58: searchKey ability
+INFO: 2023/09/10 10:01:21 dictionary.go:70: result.Hwi.Prs[i].Mw ə-ˈbi-lə-tē
+INFO: 2023/09/10 10:01:21 dictionary.go:71: result.FL noun
+INFO: 2023/09/10 10:01:21 dictionary.go:72: fmt.Sprint(result.Shortdef) the quality or state of being able; especially : physical, mental, or legal power to do something competence in doing something : skill natural aptitude or acquired proficiency
+INFO: 2023/09/10 10:01:21 dictionary.go:75: results ə-ˈbi-lə-tē  (noun):  the quality or state of being able; especially : physical, mental, or legal power to do something competence in doing something : skill natural aptitude or acquired proficiency
+INFO: 2023/09/10 10:01:21 wordFinder.go:25: output ə-ˈbi-lə-tē  (noun):  the quality or state of being able; especially : physical, mental, or legal power to do something competence in doing something : skill natural aptitude or acquired proficiency
+INFO: 2023/09/10 10:01:21 dictionary.go:58: searchKey ability
+INFO: 2023/09/10 10:01:21 dictionary.go:70: result.Hwi.Prs[i].Mw ə-ˈbi-lə-tē
+INFO: 2023/09/10 10:01:21 dictionary.go:71: result.FL noun
+INFO: 2023/09/10 10:01:21 dictionary.go:72: fmt.Sprint(result.Shortdef) the quality or state of being able; especially : physical, mental, or legal power to do something competence in doing something : skill natural aptitude or acquired proficiency
+INFO: 2023/09/10 10:01:21 dictionary.go:75: results ə-ˈbi-lə-tē  (noun):  the quality or state of being able; especially : physical, mental, or legal power to do something competence in doing something : skill natural aptitude or acquired proficiency
+INFO: 2023/09/10 11:47:28 wordFinder.go:23: arguments [test]
+INFO: 2023/09/10 11:47:28 dictionary.go:58: searchKey test
+INFO: 2023/09/10 11:47:29 dictionary.go:70: result.Hwi.Prs[i].Mw ˈtest
+INFO: 2023/09/10 11:47:29 dictionary.go:71: result.FL noun
+INFO: 2023/09/10 11:47:29 dictionary.go:72: fmt.Sprint(result.Shortdef) a means of testing: such as something (such as a series of questions or exercises) for measuring the skill, knowledge, intelligence, capacities, or aptitudes of an individual or group a procedure, reaction, or reagent used to identify or characterize a substance or constituent
+INFO: 2023/09/10 11:47:29 dictionary.go:75: results ˈtest  (noun):  a means of testing: such as something (such as a series of questions or exercises) for measuring the skill, knowledge, intelligence, capacities, or aptitudes of an individual or group a procedure, reaction, or reagent used to identify or characterize a substance or constituent
+INFO: 2023/09/10 11:47:29 wordFinder.go:24: output ˈtest  (noun):  a means of testing: such as something (such as a series of questions or exercises) for measuring the skill, knowledge, intelligence, capacities, or aptitudes of an individual or group a procedure, reaction, or reagent used to identify or characterize a substance or constituent
+INFO: 2023/09/10 11:47:29 dictionary.go:58: searchKey test
+INFO: 2023/09/10 11:47:29 dictionary.go:70: result.Hwi.Prs[i].Mw ˈtest
+INFO: 2023/09/10 11:47:29 dictionary.go:71: result.FL noun
+INFO: 2023/09/10 11:47:29 dictionary.go:72: fmt.Sprint(result.Shortdef) a means of testing: such as something (such as a series of questions or exercises) for measuring the skill, knowledge, intelligence, capacities, or aptitudes of an individual or group a procedure, reaction, or reagent used to identify or characterize a substance or constituent
+INFO: 2023/09/10 11:47:29 dictionary.go:75: results ˈtest  (noun):  a means of testing: such as something (such as a series of questions or exercises) for measuring the skill, knowledge, intelligence, capacities, or aptitudes of an individual or group a procedure, reaction, or reagent used to identify or characterize a substance or constituent
