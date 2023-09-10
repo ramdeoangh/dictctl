@@ -28,5 +28,3 @@ import (
 func main() {
 	cmd.Execute()
 }
-
-//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
