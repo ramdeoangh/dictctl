@@ -35,15 +35,32 @@ Examples
 Get the meaning of "words":
 
 bash
-
+## Example 
+./dictctl.exe wordfinder exercise
 ./dictctl.exe wordfinder serendipity
-./dictctl.exe wordfinder Back
-./dictctl.exe wordfinder Bad
-./dictctl.exe wordfinder Balance
-./dictctl.exe wordfinder Ball
-./dictctl.exe wordfinder Bank
-./dictctl.exe wordfinder Baseball
-./dictctl.exe wordfinder Basis
+./dictctl.exe wordfinder test
+./dictctl.exe wordfinder rainbow
+./dictctl.exe wordfinder route
+./dictctl.exe wordfinder love
+./dictctl.exe wordfinder man
+./dictctl.exe wordfinder machine
+./dictctl.exe wordfinder location
+./dictctl.exe wordfinder level
+./dictctl.exe wordfinder leadership
+./dictctl.exe wordfinder life
+./dictctl.exe wordfinder list
+./dictctl.exe wordfinder introduction
+./dictctl.exe wordfinder item
+./dictctl.exe wordfinder host
+./dictctl.exe wordfinder honey
+./dictctl.exe wordfinder home
+./dictctl.exe wordfinder group
+./dictctl.exe wordfinder guest
+./dictctl.exe wordfinder guide
+./dictctl.exe wordfinder fun
+./dictctl.exe wordfinder fan
+./dictctl.exe wordfinder force
+./dictctl.exe wordfinder focus
 
 ## Contributing
 Contributions are welcome! Feel free to open issues, create pull requests, or suggest new features and improvements.
