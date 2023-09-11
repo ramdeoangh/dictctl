@@ -39,7 +39,6 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
-      - '^build:'
 
 # The lines beneath this are called `modelines`. See `:help modeline`
 # Feel free to remove those if you don't want/use them.
