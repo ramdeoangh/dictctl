@@ -6,16 +6,8 @@ builds:
       - linux
       - windows
       - darwin
-     goarch:
-      - amd64
-      - arm
-      - arm64
 
 archives:
-  -files:
-      - LICENSE.txt
-      - README_{{.Os}}.md
-      - CHANGELOG.md
   - format: tar.gz
     # this name template makes the OS and Arch compatible with the results of uname.
     name_template: >-
@@ -39,8 +31,4 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
-
-# The lines beneath this are called `modelines`. See `:help modeline`
-# Feel free to remove those if you don't want/use them.
-# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
-# vim: set ts=2 sw=2 tw=0 fo=cnqoj
+ 
