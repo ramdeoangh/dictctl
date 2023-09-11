@@ -7,18 +7,23 @@ A command-line dictionary tool written in Go. Look up word definitions right fro
 
 ### Features
 
-- **Word Definitions:** Get the meaning and usage of a word.
+- **Word Definitions:** Get the meaning and usage of a word (noun).
 
 ### Usage
 
-To use this dictionary tool, 
-
+To use this dictionary tool, Go to the
+https://github.com/ramdeoangh/dictctl/releases
+Check for ### Latest release.
+Download the binaries (verify your OS)
+ 
 ```bash
-go get github.com/ramdeoangh/dictctl
+
 
 Usage
 bash
+
 windows
+unzip the downloaded binaries 
 ./dictctl.exe wordfinder [word]
 
 ubuntu/mac
