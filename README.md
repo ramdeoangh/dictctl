@@ -27,18 +27,18 @@ dictctl wordfinder test
 [word]: The word you want to look up.
 
 Examples
-Get the meaning of " these words":
+Get the meaning of "words":
 
 bash
 
->wordfinder serendipity
->wordfinder Back
->wordfinder Bad
->wordfinder Balance
->wordfinder Ball
->wordfinder Bank
->wordfinder Baseball
->wordfinder Basis
+./dictctl.exe wordfinder serendipity
+./dictctl.exe wordfinder Back
+./dictctl.exe wordfinder Bad
+./dictctl.exe wordfinder Balance
+./dictctl.exe wordfinder Ball
+./dictctl.exe wordfinder Bank
+./dictctl.exe wordfinder Baseball
+./dictctl.exe wordfinder Basis
 
 ## Contributing
 Contributions are welcome! Feel free to open issues, create pull requests, or suggest new features and improvements.
