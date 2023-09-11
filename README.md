@@ -12,9 +12,9 @@ A command-line dictionary tool written in Go. Look up word definitions right fro
 ### Usage
 
 To use this dictionary tool, Go to the
-https://github.com/ramdeoangh/dictctl/releases
-Check for ### Latest release.
-Download the binaries (verify your OS)
+- https://github.com/ramdeoangh/dictctl/releases
+- Check for ### Latest release.
+- Download the binaries (verify your OS)
  
 ```bash
 
